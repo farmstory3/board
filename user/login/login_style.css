@@ -105,6 +105,8 @@ input::placeholder {
     border-top: 1px solid #CFDED8;
     box-sizing: border-box;
     bottom: 0px;
+    background-color: #F5F6FA;
+    ;
 }
 .login_info_bottom > *{
     margin: 15px 0;
