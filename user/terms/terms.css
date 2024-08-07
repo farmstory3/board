@@ -8,53 +8,63 @@ ul, ol {list-style: none;}
 a{text-decoration: none; color: #111;}
 
 body{   
+    position: relative;
     display: flex;
     flex-direction: column;
     height: 100vh;
     justify-content: center;
     align-items: center;
 }
+body > * {
+    width: 790px;
+}
 .header {
-    width: 100%;
-    height: auto;
+    position: absolute;
+    top: 5px;
 }
 .header > h5 {
-    margin-left: 10%;
     font-family: 'Inter';
     font-size: 10.13px;
     font-weight: 400;
     line-height: 12.25px;
     text-align: left;
 }
-.main{
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.terms_main{
+    width: 600px;
     position: relative;
     display: flex;
     flex-direction: column;
-    text-align: left;
     margin: 5% 0;
 }
 
-.main > p {
+.terms_main > p {
+    text-align: left;
     padding: 5px 0;
     font-weight: 400;
     line-height: 14.52px;
 }
-.main > .site {
-    width: 600px;
+.terms_main > .site {
+    width: 100%;
     height: 237px;
     padding: 7px;
     border: 1px solid #111111;
     border-top: 2px solid #111111;
     box-sizing: border-box;
 }
-.main > .site > label {
+.terms_main > .site > label {
     float: right; 
     padding-top: 5px;
 }
-.main > .site > label > *{
+.terms_main > .site > label > *{
     display: inline-block;
 }
-.main > .main_button {
+.terms_main > .main_button {
     text-align: right;
     padding-top: 7px;
 }
@@ -71,8 +81,8 @@ button {
     background-color: #f7f7f7;
 }
 .footer {
-    width: 100%;
-    height: auto;
+    position: absolute;
+    bottom: 5px;;
 }
 
 .footer > * {
@@ -83,10 +93,8 @@ button {
 }
 .footer > h5:nth-of-type(1) {
     width: fit-content;
-    margin-left: 10%;
     
 }
 .footer > h5:nth-of-type(2) {
     float: right;
-    margin-right: 10%;
 }
