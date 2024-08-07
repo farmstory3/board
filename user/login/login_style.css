@@ -1,0 +1,144 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+ul, ol {list-style: none;}
+a{text-decoration: none; color: #111;}
+
+body{
+
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.header {
+    width: 100%;
+    height: auto;
+}
+.header > h5 {
+    margin-left: 10%;
+    font-family: 'Inter';
+    font-size: 10.13px;
+    font-weight: 400;
+    line-height: 12.25px;
+    text-align: left;
+}
+
+.main{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 16% 0;
+}
+
+.login_info {
+    position: relative;
+    width: 360px;
+    height: 222px; 
+    border: 1px solid #CFDED8;
+    box-sizing: border-box;
+}
+
+.login_info  > .id_pw{
+    position: absolute;
+    width: 190px;
+    height: 56px;
+    top: 30px;
+    left: 50px;
+
+}
+.id_pw > * {
+    display: flex;
+    flex-direction:row;
+}
+
+.id {
+    padding-bottom: 5px;
+}
+
+img {
+    width: 20px;
+    height: 20px;
+    padding-right:5px ;
+}
+
+.div_button {
+    float: right;
+}
+button {
+    position: absolute;
+    width: 60px;
+    height: 52px;
+    font-size: 12px;
+    font: Inter;
+    border: 1px solid #BEBEBE;
+    box-sizing: border-box;
+    background: white;
+    top: 32px;
+    right: 50px;
+}
+
+input {
+    text-align: left;
+    width:164px;
+    height:24px;
+    border: none;
+    background: #F7F7F7;
+}
+
+input::placeholder {
+    color: black;
+    font-size: 10px;
+}
+
+.login_info_bottom{
+    position: absolute;
+    width: 100%;
+    height: 104px;
+    border-top: 1px solid #CFDED8;
+    box-sizing: border-box;
+    bottom: 0px;
+}
+.login_info_bottom > *{
+    margin: 15px 0;
+    font-family: 'Inter'; 
+    font-weight: 400;
+    line-height: 14.52px;
+}
+.login_info_bottom > h5 {
+    text-align: left;
+    padding-left: 15px ;
+}
+.login_info_bottom > p {
+    text-align: right;
+    padding-right: 15px;
+    
+
+}
+.footer {
+    width: 100%;
+    height: auto;
+}
+
+.footer > * {
+    display: inline-block;
+}
+.footer > h5 {
+    color: #777777;  
+}
+
+.footer > h5:nth-of-type(1) {
+    width: fit-content;
+    margin-left: 10%;
+    
+}
+.footer > h5:nth-of-type(2) {
+    float: right;
+    margin-right: 10%;
+}
