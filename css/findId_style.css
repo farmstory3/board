@@ -1,0 +1,95 @@
+html {
+  font-size: 12px;
+}
+body {
+  width: 1920px;
+  height: 476px;
+}
+main {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+header {
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+.heading {
+  width: 790px;
+  display: flex;
+  justify-content: left;
+}
+.top {
+  display: flex;
+  text-align: left;
+}
+.section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.section > table > caption {
+  text-align: left;
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+.findId {
+  width: 600px;
+  height: 138px;
+  border-top: 1px solid black;
+  border-spacing: 0;
+}
+.findId td {
+  border: 1px solid #e4eaec;
+  padding-left: 10px;
+}
+.findId input {
+  width: 164px;
+  height: 24px;
+  background-color: #f7f7f7;
+  border: 1px solid #e4eaec;
+}
+.findId button {
+  border: 1px solid #bebebe;
+  height: 27px;
+}
+.email_first {
+  padding-bottom: 4px;
+}
+.email input:nth-child(2) {
+  width: 85px;
+  height: 20px;
+}
+.name > td:nth-child(1) {
+  width: 120px;
+}
+.description {
+  justify-self: flex-start;
+  margin-left: 5px;
+  margin-top: 5px;
+  height: 40px;
+  line-height: 20px;
+}
+.button {
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+.button > button {
+  width: 42px;
+  height: 35px;
+  margin-left: 5px;
+  background-color: white;
+  border: 1px solid #bebebe;
+}
+footer {
+  display: flex;
+  justify-content: center;
+}
+.footing {
+  width: 790px;
+  display: flex;
+  justify-content: space-between;
+  color: #777777;
+}
