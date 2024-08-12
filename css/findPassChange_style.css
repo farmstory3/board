@@ -84,6 +84,7 @@ header {
   margin-left: 5px;
   background-color: white;
   border: 1px solid #bebebe;
+  cursor: pointer;
 }
 footer {
   display: flex;
