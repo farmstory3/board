@@ -55,7 +55,6 @@ header {
   font-size: 12px;
   border: 1px solid #bebebe;
   height: 27px;
-  cursor: pointer;
 }
 .email_first {
   padding-bottom: 4px;
@@ -81,7 +80,6 @@ header {
 }
 .button > button {
   width: 42px;
-  cursor: pointer;
   height: 35px;
   font-size: 12px;
   margin-left: 5px;

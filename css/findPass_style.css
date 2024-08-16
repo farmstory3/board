@@ -54,7 +54,6 @@ header {
   font-size: 12px;
   border: 1px solid #bebebe;
   height: 27px;
-  cursor: pointer;
 }
 .email_first {
   padding-bottom: 4px;
@@ -85,7 +84,6 @@ header {
   margin-left: 5px;
   background-color: white;
   border: 1px solid #bebebe;
-  cursor: pointer;
 }
 footer {
   display: flex;
