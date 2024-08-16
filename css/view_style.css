@@ -1,0 +1,171 @@
+/* reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input {
+  border: none;
+  font-size: 16px;
+}
+
+textarea {
+  border: none;
+  resize: none;
+  width: 100%;
+  height: 300px;
+  font-size: 16px;
+}
+
+.info_btn {
+  border: none;
+  background-color: white;
+}
+.comm_txt {
+  border: none;
+  resize: none;
+  width: 100%;
+  height: 80px;
+  font-size: 16px;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  width: 800px;
+}
+
+.info {
+  display: flex;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 32px 0 12px;
+}
+
+.footer_wrap {
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* 글보기 */
+.button_wrap {
+  width: 100%;
+  display: flex;
+  justify-content: right;
+  gap: 5px;
+  margin-top: 8px;
+}
+
+.board_title {
+  border-bottom: 1px solid #333;
+  padding: 12px 0;
+}
+
+.board_btn {
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 8px 10px;
+}
+
+.comm_btn {
+  background-color: black;
+  border: 1px solid #ccc;
+  padding: 8px 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+.list {
+  display: flex;
+  border-bottom: 1px solid #ddd;
+}
+
+.board_sub_title {
+  width: 150px;
+  background-color: #f5f8f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* justify-content = 가로정렬 */
+  /* align-items = 세로정렬 */
+}
+
+.board_content {
+  width: calc(100% - 150px);
+  padding: 16px;
+}
+
+/* 댓글 목록 */
+
+.comm_top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrap {
+  display: flex;
+}
+
+.comm_name {
+  margin-right: 5px;
+}
+
+.item {
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.item_title {
+  border-bottom: 1px dashed #333;
+  padding: 5px 0;
+  margin-bottom: 12px;
+  font-weight: bold;
+}
+
+.comm_content {
+  padding: 3px;
+}
+
+.none {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 15px;
+  color: #000000;
+}
+
+a {
+  text-decoration: none;
+  color: inherit; /* 부모 요소의 색상 상속 */
+}
+
+.link_wrap {
+  margin: 5px;
+}
